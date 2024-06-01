@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.bar1{
+    
+    width: 100%;
+}
+.logo-box{
+    width: 81%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+}
+.logo-box a img{
+    width: 200px;
+    display: block;
+}
+.search-box{
+    height: 30px;
+    width: 60%;
+    background-color: orange;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px black;
+}
+.search-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 15px;
+
+}
+.search-box .btn-search{
+    width: 10%;
+    background-color: #eee;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box .btn-search:hover{
+    opacity: 0.5px;
+    background-color: pink;
+}
+.menu-bar{
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.742);
+}
+.menu{
+    width: 81%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color: #eee;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.334);
+    border-radius: 8px;
+}
+.menu ul li a i{
+    font-size: 25px;
+}
+.container{
+    width: 81%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.container h1{
+    background-color: #eee;
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.item-box{
+    width: 24.5%;
+    background-color: blue;
+    height: 300px;
+    
+}
+.item-box .img-box{
+    width: 100%;
+    height: 60%;
+    background-color: #eee;
+}
+.item-box .img-box img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.item-box .txt-box{
+    width: 100%;
+    height: 40%;
+    background-color: #eee;
+    position: relative;
+}
+.item-box .txt-box h2{
+    font-size: 15px;
+}
+.item-box .txt-box ul{
+    width: 100%;
+    background-color: yellow;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+.item-box .txt-box ul li{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    cursor: pointer;
+}
+.item-box .txt-box ul .btn1{
+    background-color: green;
+}
+.item-box .txt-box ul .btn2{
+    background-color: orange;
+}
+.item-box .txt-box ul .btn3{
+    background-color: pink;
+}
+.item-box .txt-box h3{
+    position: absolute;
+    right: 0;
+    color: red;
+    font-size: 20px;
+}
+.big-img{
+    width: 81%;
+    margin: auto;
+    height: 500px;
+}
+.big-img a img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.big-img a img:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.end-web{
+    width: 100%;
+    background-color: blueviolet;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
